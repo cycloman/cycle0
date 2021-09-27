@@ -1,0 +1,80 @@
+  h1 {position: absolute;
+    width: 333px;
+    height: 23px;
+    left: 195px;
+    top: 164px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #B5CA00;
+  }
+  h2 {/* Мы предлагаем */
+
+
+    position: absolute;
+    width: 302px;
+    height: 47px;
+    left: 567px;
+    top: 585px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    
+    
+    color: #000000;}
+  p {/* Надежный доход и удобный график работы */
+
+
+    position: absolute;
+    width: 473px;
+    height: 209px;
+    left: 191px;
+    top: 212px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    
+    color: #000000;}
+
+button {position: absolute;
+    width: 295px;
+    height: 60px;
+    left: 195px;
+    top: 391px;
+    
+    background: #B5CA00;
+    border-radius: 4px;}
+
+  img {
+    position: absolute;
+    width: 874px;
+    height: 532px;
+    left: 569px;
+    top: 0px;
+    
+    background: url(cleaner1_21-copy.jpg);
+  }
+  form {/* Rectangle 8 */
+
+
+    position: absolute;
+    width: 1440px;
+    height: 502px;
+    left: 0px;
+    top: 1615px;
+    
+    background: #8664C6;}
+
+    form {
+      height: 100vh;
+    }
