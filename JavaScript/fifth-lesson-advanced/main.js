@@ -10,4 +10,4 @@ let NickName = prompt ("Твой ник?");
 let age = prompt ("Насколько ты старый?");
 
 alert(`Вас зовут ${name}, ваш никнейм ${NickName}, вам ${age}'`); // Тебе 100 лет!
-console.log // чет тут я пока не понял
+console.log (`Вас зовут ${name}, ваш никнейм ${NickName}, вам ${age}`)// чет тут я пока не понял
