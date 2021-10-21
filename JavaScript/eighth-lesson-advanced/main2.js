@@ -1,22 +1,19 @@
 "use strict"
-//- запрашивать числа через prompt, пока пользователь не отправит пустое число или не нажмет "Отмена", 
-//затем вывести true для четных чисел и false для нечетных чисел
+let x= prompt ('введите полиндром');
+let array =[];
+let success = true;
 
-const array = [];
-let i;
+array= [...x];
 
-do {
-    i=prompt ('insert number');
-    if (i!==''&&i!==null){
-        array.push (i);
-    }    
-} while (i!=='' && i!==null); 
+for (let i=0; i<=array.length/2; i+=1) {
 
-for (let i=0; i<=array.length-1 ; i+=1) {
-    //alert (array [i]);
-    if (i%2==0) {
-        alert ('true')
-    } else {
-        alert ('false')
+    if (array [i]!==array[array.length-i-1]) {
+        success = false;
+        alert ('lox');
+        break;
     }
 }
+if (success) {
+    alert ('Nice dude');
+}
+

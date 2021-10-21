@@ -1,14 +1,16 @@
 "use strict"
-const array = [];
-let x;
-array.push (1,2,3);
+const array = [1,2,3];
+let x, y;
 
 do {
-        for (let x=prompt ('insert number'); x<array.length ; i+=1) {
-            if (i>0) {
-                let result = x/array[i];
-                alert (result);     
-} while (x!=='' && x!==null)
+        x=prompt ('insert');
+        if ((x!=='' && x!==null)) {
+        for (let i=0; i<array.length; i++) {
+                y = x/array[i];
+                alert (y);
+        }
+}
+} while (x!=='' && x!==null) 
 
 
 
